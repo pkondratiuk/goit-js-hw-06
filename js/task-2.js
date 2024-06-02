@@ -19,7 +19,7 @@ class Storage {
       this.#items.splice(this.#items.indexOf(itemToRemove), 1);
     }
   }
-}
+};
 
 const storage = new Storage(["Nanitoids", "Prolonger", "Antigravitator"]);
 console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator"]

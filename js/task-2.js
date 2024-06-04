@@ -15,7 +15,7 @@ class Storage {
   }
 
   removeItem(itemToRemove) {
-    if (this.#items.indexOf(itemToRemove) > 0) {
+    if (this.#items.indexOf(itemToRemove) !== -1) {
       this.#items.splice(this.#items.indexOf(itemToRemove), 1);
     }
   }
